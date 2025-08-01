@@ -1,12 +1,17 @@
 Body{
     display: flex;
     flex-direction: column;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+        color: #333;
 
 }
 main{
     display:flex;
     flex-direction: row;
     flex: auto;
+      background: #ffffff;
+        border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* Soft box shadow */
 }
 article{
     flex: 2;
@@ -15,5 +20,26 @@ article{
 }
 aside{
     flex: 1;
-    overflow-y: auto
+    overflow-y: auto;
+     background: #FAFAFA
+    
 }
+header{
+      background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  border-bottom: 1px solid rgb(221,221,221);
+}
+header li.logo {
+  font-size: 36px;
+}
+header li a:hover {
+  color: #007acc; /* Light blue on hover */
+}
+@media (max-width: 800px) {
+  body.works_on_smartphone {
+    display: block;
+  }
+  body.works_on_smartphone main {
+    display: block;
+  }
