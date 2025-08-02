@@ -23,5 +23,5 @@ The landing page is composed of multiple sections including:
 - External image links and placeholder images
 - Ready to be styled using Flexbox/Grid in the next CSS task
 
-## 📁 Project Structure
+
 
