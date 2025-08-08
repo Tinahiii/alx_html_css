@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  padding: 2rem 3rem; /* Provides spacing from the edges */
+  z-index: 10;
+ /* Ensures the header is on top of other content */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the logo image */
+nav img {
+  height: 30px; /* Adjust logo height as needed */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem; 
+ /* Space between navigation links */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+   width: 234px;
+  height: 15px;
+  top: 37px;
+  left: 1041px;
+}
+
+
+/* --- Hero Section --- */
+
+.hero-section {
+  /* Set the background image */
+  background-image: url('./image/Object.png'); /* IMPORTANT: Make sure this path is correct */
+  background-size: cover;      /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 1093px;
+  min-height: 80vh; /* You can adjust this height */
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the content */
+  align-items: center;     /* Horizontally centers the content */
+  text-align: center;
+  padding: 2rem; 
+}
+.hero-content h1 {
+  position: absolute;
+  width: 679px;
+  height: 95px;
+  top: 240px;
+  left: 377px;
+  font-size: 120px;
+  white-space: nowrap;
+  font-weight: 700;
+  line-height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.hero-content .smiles{
+  position: absolute;
+  top: 361px;
+  left: 593px;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.hero-content .laugh{
+    position: absolute;
+  top: 361px;
+  left: 704px;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.hero-content .grin{
+   position: absolute;
+  top: 361px;
+  left: 797px;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal; 
+}
+
+/* The registration button */
+.hero-content button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 162px;
+  height: 44px;
+  top: 419px;
+  left: 639px;
+  background-color: #C271FF; 
+  overflow: hidden;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 22px;
+  justify-content: center;
+}
+.hero-section button:hover {
+  opacity: 0.9;
+}
+
+/* The "Learn from the pros" text at the bottom */
+/*.pros-section h2 { /* Assuming you add the class "pros-section" to the container */
+/**
+   font-size: 1rem;
+   font-weight: bold;
+   margin-top: 5rem; }/* Pushes it down */
+
+
+.hero-section .h2{
+  position: absolute;
+  top: 631px;
+  left: 604px;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.hero-section .learn{
+   font-weight: 700;
+  color: #c170ff;
+
+
+}
+.hero-section.text-wrapper-4 {
+  font-weight: 700;
+  color: #ffffff;
+
+}
+
+.hero-section .fromthepros{
+    font-weight: 700;
+  color: #ffffff;
+}
+.hero-section .imagebox{
+  position: absolute;
+  width: 1009px;
+  height: 237px;
+  top: 758px;
+  left: 217px;
+}
+.hero-section .image1text1{
+  position: absolute;
+  width: 150px;
+  height: 237px;
+  top: 0;
+  left: 0;
+}
+.hero-section .image2text2{
+  position: absolute;
+  width: 150px;
+  height: 237px;
+  top: 0;
+  left: 289px;
+
+}
+.hero-section .image3text3{
+  position: absolute;
+  width: 150px;
+  height: 237px;
+  top: 0;
+  left: 570px;
+
+}
+.hero-section .image4text4 {
+  position: absolute;
+  width: 150px;
+  height: 237px;
+  top: 0;
+  left: 859px;
+}
+.hero-section .h3{
+  position: absolute;
+ width: 0px;
+  height:27px;
+  top: 160px;
+  left: 0;
+  font-family: "Source Sans Pro-Black", Helvetica;
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 0px;
+  white-space: nowrap;
+
+}
+.hero-section .discription{
+  position: absolute;
+  width: 150px;
+  top: 188px;
+  left: 0;
+  font-family: "Source Sans Pro-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+
+}
