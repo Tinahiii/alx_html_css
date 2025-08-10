@@ -248,3 +248,75 @@ nav ul li a {
   line-height: 24px;
 
 }
+.quote-section {
+  width: 1440px;
+  height: 392px;
+
+
+}
+.quote-section .text {
+  position: absolute;
+  width: 730px;
+  height: 158px;
+  top: 2px;
+  left: 213px;
+}
+.quote-section .weatherpresenter {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  font-family: "Source Sans Pro-Italic", Helvetica;
+  font-weight: 400;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+.quote-section h3 {
+  position: absolute;
+  top: 89px;
+  left: 0;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+  white-space: nowrap;
+}
+.quote-section .thosetutorials {
+  position: absolute;
+  width: 730px;
+  top: -1px;
+  left: 0;
+  font-family: "Source Sans Pro-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+.quote-section .overlap-group {
+  position: absolute;
+  width: 1439px;
+  height: 392px;
+  left: 1px;
+  background-color:#c170ff;
+  background-size: 100% 100%;
+}
+.quote-section .part-testimonials {
+  position:relative;
+  width: 1440px;
+  height: 392px;
+  top: 0;
+  left: 0;
+}
+.quote-section .testimonial {
+  position: relative;
+  width: 943px;
+  height: 160px;
+  top: 108px;
+  left: 259px;
+}
