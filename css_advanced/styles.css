@@ -320,3 +320,146 @@ nav ul li a {
   top: 108px;
   left: 259px;
 }
+.part-tutorials h2{
+text-align: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 75px;
+margin-top: 75px;
+}
+.part-tutorials .text-wrapper{
+  color: black;
+  font-weight: 300px;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+
+}
+.part-tutorials .span{
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #c170ff;
+}
+.part-tutorials .tuto{
+  display: flex;
+  justify-content: space-between; /* evenly spaced cards */
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1228px;
+  margin: 0 auto; /* center container */
+}
+.part-tutorials .overlap-group{
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 23%; /* 4 cards in a row with gap */
+  text-align: left;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding-bottom: 15px;
+  position: relative;
+
+}
+.part-tutorials .card-image{
+  position: relative;
+  width: 255px;
+  height: 154px;
+  margin-bottom: 20px;
+}
+.part-tutorials .play-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #fff;
+  background: rgba(207, 207, 207, 0.7);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.part-tutorials h3{
+  width: 106px;
+  height: 20px;
+  top: 172px;
+  left: 13px;
+ word-spacing: nowrap;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 700;
+ font-size: 16px;
+
+}
+.part-tutorials .lorum{
+  width: 242px;
+  height: 48px;
+  top: 199.6px;
+  left: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:400;
+  font-size: 14px;
+
+}
+.part-tutorials .philip{
+  width: 30px;
+  height: 30px;
+  top: 261px;
+  left: 13px;
+
+}
+.part-tutorials h4{
+  width: 86px;
+  height: 27px;
+  top: 263px;
+  left: 56px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #c170ff;
+  white-space: nowrap;
+}
+.part-tutorials .philipimage{
+   display: flex;
+   gap: 10px;
+}
+.part-tutorials .ratingstar{
+  display: flex;
+  gap: 70px;
+  color: #c170ff;
+  height: 20px;
+  margin-top:10px;
+} 
+.part-tutorials .min{
+  font-size: 14px;
+  font-weight: 600;
+  height: 27px;
+  top: 297px;
+  left: 199px;
+}
+.membership{
+  width: 1440px;
+  height: 502px;
+  top: 2109px;
+  background-color: #071629;
+  margin-top: 150px;
+}
+.membership h2{
+  text-align: center;
+  padding-top: 100px;
+  color:#ffffff;
+}
+.membership .text-wrapper-7{
+  color: #c170ff;
+}
+.membership .smilemember{
+  display: flex;
+  justify-content: space-between; /* evenly spaced cards */
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 1228px;
+  margin: 0 auto; }
+
+
